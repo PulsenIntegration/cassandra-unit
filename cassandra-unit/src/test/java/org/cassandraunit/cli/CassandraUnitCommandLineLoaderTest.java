@@ -152,7 +152,6 @@ public class CassandraUnitCommandLineLoaderTest {
         CassandraUnitCommandLineLoader.main(args);
 
         Cluster cluster = HFactory.getOrCreateCluster(clusterName, host + ":" + port);
-        //Keyspace keyspace = HFactory.createKeyspace("beautifulKeyspaceName", cluster);
         assertDefaultValuesSchemaExist(cluster);
         assertDefaultValuesDataIsEmpty(cluster);
         EmbeddedCassandraServerHelper.cleanEmbeddedCassandra();

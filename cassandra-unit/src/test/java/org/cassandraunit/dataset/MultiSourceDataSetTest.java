@@ -2,7 +2,6 @@ package org.cassandraunit.dataset;
 
 import static org.cassandraunit.SampleDataSetChecker.assertDataSetDefaultValues;
 
-//import org.cassandraunit.dataset.json.ClassPathJsonDataSet;
 import org.cassandraunit.model.ColumnFamilyModel;
 import org.cassandraunit.utils.FileTmpHelper;
 import org.junit.Before;
