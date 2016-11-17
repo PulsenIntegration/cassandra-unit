@@ -4,7 +4,7 @@ import org.cassandraunit.dataset.CQLDataSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.datastax.driver.core.ResultSet;
+//import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Session;
 
 /**

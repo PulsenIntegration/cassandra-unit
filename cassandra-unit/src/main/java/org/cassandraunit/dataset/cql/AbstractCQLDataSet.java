@@ -64,7 +64,8 @@ public abstract class AbstractCQLDataSet implements CQLDataSet {
         final InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader br = new BufferedReader(inputStreamReader);
         String line;
-        List<String> cqlQueries = new ArrayList();
+        //List<String> cqlQueries = new ArrayList();
+        List<String> cqlQueries = new ArrayList<String>();
         try {
             while ((line = br.readLine()) != null) {
                 if (StringUtils.isNotBlank(line)) {

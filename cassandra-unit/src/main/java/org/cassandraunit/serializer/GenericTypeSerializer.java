@@ -19,8 +19,8 @@ import org.cassandraunit.exception.CassandraUnitException;
 import org.cassandraunit.type.GenericType;
 import org.cassandraunit.type.GenericTypeEnum;
 import org.cassandraunit.utils.Base64;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import java.nio.ByteBuffer;
 import java.text.DateFormat;
@@ -40,7 +40,7 @@ public class GenericTypeSerializer extends AbstractSerializer<GenericType> {
 
     public static final DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd HHmmss");
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    //private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 
     public static GenericTypeSerializer get() {

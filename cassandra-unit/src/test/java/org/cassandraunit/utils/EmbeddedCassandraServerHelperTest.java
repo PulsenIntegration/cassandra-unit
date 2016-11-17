@@ -6,7 +6,7 @@ import static org.junit.Assert.assertThat;
 
 import java.util.Random;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 import me.prettyprint.cassandra.service.CassandraHostConfigurator;
 import me.prettyprint.hector.api.Cluster;
 import me.prettyprint.hector.api.ddl.KeyspaceDefinition;
