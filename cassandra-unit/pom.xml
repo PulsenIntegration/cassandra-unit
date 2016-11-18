@@ -30,17 +30,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>xjc</goal>
-                        </goals>
-                        <configuration>
-                            <arguments>-enableIntrospection</arguments>
-                        </configuration>
-                    </execution>
-                </executions>
+                <version>2.3</version>
                 <dependencies>
                     <dependency>
                         <groupId>com.sun.xml.bind</groupId>
